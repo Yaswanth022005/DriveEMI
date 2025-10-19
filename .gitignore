@@ -1,0 +1,56 @@
+node_modules/
+npm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Backend
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+
+# Build
+dist/
+*.log
+.vite/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+coverage/
+.cache/
+
+# Docker
+
+
+# Secrets
+secrets.json
+
+# PM2
+pm2.config.js
+
+# Editor temp
+*~
+*.swp
